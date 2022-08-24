@@ -1,3 +1,10 @@
+document.body.onload = () => {
+    let preloader = document.querySelector('#page_preloader')
+    if (!preloader.classList.contains('done')) {
+        preloader.classList.add('done')
+    }
+}
+
 const headerBurger = document.querySelector('.header_burger');
 const headerMenu = document.querySelector('.header_menu');
 const body = document.querySelector('body')
